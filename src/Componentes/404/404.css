@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fff;
+}
+
+.container-erro {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.caixa-erro {
+  background-color: #f3f3f3;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
+}
+
+.titulo-erro {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.mensagem-erro {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.botao-voltar {
+  background-color: #007bff;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.botao-voltar:hover {
+  background-color: #0056b3;
+}
