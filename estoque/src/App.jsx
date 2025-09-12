@@ -8,12 +8,12 @@ import NovoUsuario from './pages/NovoUsuario'
 export default function App() {
   return (
     <div>
-      <header className="flex justify-center items-center py-5 bg-[#0571F5] text-white">
+      <header className="flex justify-center items-center py-5 bg-blue-500 text-white">
         <nav className="flex gap-5">
-          <Link to="/" className="font-bold hover:text-[#0408f4]">Lista</Link>
-          <Link to="/novo" className="font-bold hover:text-[#0408f4]">Novo</Link>
-          <Link to="/login" className="font-bold hover:text-[#0408f4]">Login</Link>
-          <Link to="/novo-usuario" className="font-bold hover:text-[#0408f4]">Novo Usuário</Link>
+          <Link to="/" className="font-bold hover:underline hover:decoration-white-500 hover:transition duration-300 ease-in-out">Lista</Link>
+          <Link to="/novo" className="font-bold hover:underline hover:decoration-white-500 hover:transition duration-300 ease-in-out">Novo</Link>
+          <Link to="/login" className="font-bold hover:underline hover:decoration-white-500 hover:transition duration-300 ease-in-out">Login</Link>
+          <Link to="/novo-usuario" className="font-bold hover:underline hover:decoration-white-500 hover:transition duration-300 ease-in-out">Novo Usuário</Link>
         </nav>
       </header>
 
